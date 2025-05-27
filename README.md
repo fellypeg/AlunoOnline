@@ -50,36 +50,10 @@ spring.jpa.hibernate.ddl-auto=update
 ./mvnw spring-boot:run
 
 🧠 Organização do Projeto
-src/
- ├── main/ 
- │   ├── java/ 
- │   │   └── br/ 
- │   │       └── com/ 
- │   │           └── alunoonline/ 
- │   │               └── api/ 
- │   │                   ├── controller/   # Controladores REST
- │   │                   ├── service/      # Regras de negócio
- │   │                   ├── repository/   # Acesso ao banco
- │   │                   ├── model/        # Entidades JPA
- │   │                   └── dto/          # Transferência de dados
- │   └── resources/ 
- │       ├── application.properties         # Configuração da aplicação 
- │       ├── db/ 
- │       │   └── dump.sql                   # Backup do banco de dados
- │       └── insomnia/
- │           └── Insomnia_2025-05-27.yaml   # Collection de testes da API
- └── test/                                  # Testes unitários e de integração
+
+
+![print1](https://i.imgur.com/ZipHXpG.png).
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# aluno
-listarTodosAlunos, buscarAlunoPorId e deletarAlunoPorId
-![print1](https://i.imgur.com/iEuD1Rv.png)
-print criarAluno 
-![print2](https://i.imgur.com/jkUs1RW.png)
-print listarAlunos
-![print3](https://i.imgur.com/cwQj3pz.png)
-print buscarAlunoPorId
-![print4](https://i.imgur.com/DTacnwy.png)
-print deletarAluno
 
-#
+
