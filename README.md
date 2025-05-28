@@ -39,6 +39,8 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
 
 2. Configure no Banco de Dados
+
+   
 No arquivo src/main/resources/application.properties:
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/alunosdb
@@ -47,6 +49,7 @@ spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=update
 
 3. Execute a aplicação
+   
 ./mvnw spring-boot:run
 
 🧠 Organização do Projeto
